@@ -1,0 +1,44 @@
+body {
+    background-color: lightgreen;
+}
+
+button {
+    font-size: xx-large;
+    margin: 1px;
+    padding: 6px;
+}
+
+#map {
+    display: flex;
+    flex-direction: column;
+}
+
+div.row {
+    display: flex;
+    justify-content: center;
+    
+}
+
+button.rome {
+    background-color: yellow;
+}
+
+button.rome:hover {
+    background-color: lightyellow;
+}
+/* onclick */
+button.romecli {
+    background-color: red;
+}
+
+button.tro {
+    background-color: blue;
+}
+
+button.tro:hover {
+    background-color: lightblue;
+}
+
+button.trocli {
+    background-color: red   ;
+}
